@@ -25,9 +25,9 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use((req, res) => {
+/* app.use((req, res) => {
     res.render('example.hbs', {});
-});
+}); */
 
 app.use(express.static(__dirname + '/public'));
 
